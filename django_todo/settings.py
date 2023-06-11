@@ -32,7 +32,7 @@ SECRET_KEY = 'django-insecure-5ecz$=73qou-@uv5&_bvwsgr2^0qq!07loxc)2@k)-z5^=7c^o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-delfinistka-hellodjango-2qyqbtcdats.ws-eu99.gitpod.io']
+ALLOWED_HOSTS = ['8000-delfinistka-hellodjango-eo8rehr48a1.ws-eu99.gitpod.io']
 
 
 # Application definition
