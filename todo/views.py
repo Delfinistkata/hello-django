@@ -49,9 +49,11 @@ def edit_item(request, item_id):
         if form.is_valid():
             form.save()
             return redirect('get_todo_list')
-    form = ItemForm(instance=item)
+    else:
+        form = ItemForm(instance=item)
+
     context = {
-        'form': form
+        'form': form,
     }
     return render(request, 'todo/edit_item.html', context)
 
